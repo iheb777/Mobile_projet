@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecurityManager"
+     android:gravity="center"
+    android:background="@drawable/b"
+
+    >
+
+<ScrollView
+    android:layout_centerInParent="true"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <TableRow>
+            <TextView
+                 android:text="         Name"
+                android:padding="3dip" />
+            <TextView
+                 android:text="   State  "
+                 android:padding="3dip" />
+            <TextView
+                android:layout_gravity="center"
+                android:text="More"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:text="Last check"
+                 />
+
+
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Last time down"
+                />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="AMN_CAM_DVR1"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/etatdvr1"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b1"
+                 />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lc1"
+                  />
+
+
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+
+                android:id="@+id/ltd1"
+                />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="AMN_CAM_DVR2"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/etatdvr2"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b2"
+                />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lc2"
+                />
+
+
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+
+                android:id="@+id/ltd2"
+                />
+
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="APPRO_CAM_NVR"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/etatnvrarpo"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b3"
+                />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lc3"
+                />
+
+
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+
+                android:id="@+id/ltd3"
+                />
+
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="DRU_CAM_EXT_PRINCIPALE"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/cametatextprincipal"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b4"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lc4"
+                />
+
+
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+
+                android:id="@+id/ltd4"
+                />
+
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="DRU_CAM_INT"
+                android:padding="3dip" />
+            <TextView
+
+                android:id="@+id/camint"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b5"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lc5"
+                />
+
+
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+
+                android:id="@+id/ltd5"
+                />
+
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+
+                android:text="DRU_CAM_NVR"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/nvrdru"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b6"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lc6"
+                />
+
+
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+
+                android:id="@+id/ltd6"
+                />
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</ScrollView>
+
+
+</RelativeLayout>

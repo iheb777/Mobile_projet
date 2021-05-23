@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SystemAdmin"
+    android:gravity="center"
+     android:background="@drawable/b"
+
+    >
+
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <TableLayout
+
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn"
+        android:layout_marginBottom="20dp"
+
+        >
+
+
+        <TableRow>
+            <TextView
+                 android:text="Name"
+                android:padding="3dip" />
+            <TextView
+                 android:text=" State  "
+                android:padding="3dip" />
+            <TextView
+                android:layout_gravity="center"
+                android:text="More"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+                android:text="Last time down"
+                 />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="APPRO_SRV_DHCP_KAV"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/etat1"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b1"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lt1"
+                />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="DRU_SRV_AD"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/etat2"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b2"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lt2"
+                />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="DRU_SRV_Backup"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/etat3"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b3"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lt3"
+                />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="DRU_SRV_ESXI_GPM3"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/etat4"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b4"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lt4"
+                />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="DRU_SRV_GLPI_ANCIEN"
+                android:padding="3dip" />
+            <TextView
+
+                android:id="@+id/etat5"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b5"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lt5"
+                />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+
+                android:text="DRU_SRV_GPM3"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/etat6"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b6"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lt6"
+                />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+
+                android:text="DRU_SRV_GPM3_Backp"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/etat7"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b7"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lt7"
+                />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+
+                android:text="DRU_SRV_GedAlfresco"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/etat8"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b8"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lt8"
+                />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+
+                android:text="DRU_SRV_Helpdesk"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/etat9"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b9"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lt9"
+                />
+
+
+        </TableRow>
+
+
+
+        <TableRow>
+            <TextView
+
+                android:text="DRU_SRV_KAV_HYP"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/etat10"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b10"
+                />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lt10"
+                />
+
+
+        </TableRow>
+
+
+
+
+
+
+        <TableRow>
+            <TextView
+
+                android:text="DRU_SRV_AD_Service"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/etat11"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b11"
+                />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lt11"
+                />
+
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+
+                android:text="DRU_SRV_Backup_Service"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/etat12"
+                android:text="State"
+                android:padding="3dip" />
+            <Button
+                android:text="..."
+                android:id="@+id/b12"
+                />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            >
+
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/lt12"
+                />
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+</ScrollView>
+
+</RelativeLayout>
